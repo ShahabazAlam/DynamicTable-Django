@@ -1,0 +1,1152 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-05-19T12:10:29.484Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Category",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-05-30T08:59:41.305Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "FirstTable",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-05-30T09:00:24.797Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "name",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-05-30T09:01:15.228Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "age",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-05-30T09:01:51.019Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Shahabaz Alam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-05-30T09:02:04.387Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Sujit Kumar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-05-30T09:02:22.632Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Rallapalli Arjun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-05-30T09:08:56.236Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "project_category",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-05-30T09:24:22.677Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "project_category",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Related Table Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-05-30T09:26:10.986Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "project_category",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Related Table Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-05-30T09:26:39.837Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "project_category",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Related Table Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-05-30T09:26:47.699Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "project_category",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Related Table Name\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add phishing model",
+        "content_type": 7,
+        "codename": "add_phishingmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change phishing model",
+        "content_type": 7,
+        "codename": "change_phishingmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete phishing model",
+        "content_type": 7,
+        "codename": "delete_phishingmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view phishing model",
+        "content_type": 7,
+        "codename": "view_phishingmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add data type",
+        "content_type": 8,
+        "codename": "add_datatype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change data type",
+        "content_type": 8,
+        "codename": "change_datatype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete data type",
+        "content_type": 8,
+        "codename": "delete_datatype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view data type",
+        "content_type": 8,
+        "codename": "view_datatype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add default value",
+        "content_type": 9,
+        "codename": "add_defaultvalue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change default value",
+        "content_type": 9,
+        "codename": "change_defaultvalue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete default value",
+        "content_type": 9,
+        "codename": "delete_defaultvalue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view default value",
+        "content_type": 9,
+        "codename": "view_defaultvalue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add on delete",
+        "content_type": 10,
+        "codename": "add_ondelete"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change on delete",
+        "content_type": 10,
+        "codename": "change_ondelete"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete on delete",
+        "content_type": 10,
+        "codename": "delete_ondelete"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view on delete",
+        "content_type": 10,
+        "codename": "view_ondelete"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add relationship type",
+        "content_type": 11,
+        "codename": "add_relationshiptype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change relationship type",
+        "content_type": 11,
+        "codename": "change_relationshiptype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete relationship type",
+        "content_type": 11,
+        "codename": "delete_relationshiptype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view relationship type",
+        "content_type": 11,
+        "codename": "view_relationshiptype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add table name",
+        "content_type": 12,
+        "codename": "add_tablename"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change table name",
+        "content_type": 12,
+        "codename": "change_tablename"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete table name",
+        "content_type": 12,
+        "codename": "delete_tablename"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view table name",
+        "content_type": 12,
+        "codename": "view_tablename"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add table field",
+        "content_type": 13,
+        "codename": "add_tablefield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change table field",
+        "content_type": 13,
+        "codename": "change_tablefield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete table field",
+        "content_type": 13,
+        "codename": "delete_tablefield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view table field",
+        "content_type": 13,
+        "codename": "view_tablefield"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add first table model",
+        "content_type": 14,
+        "codename": "add_firsttablemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change first table model",
+        "content_type": 14,
+        "codename": "change_firsttablemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete first table model",
+        "content_type": 14,
+        "codename": "delete_firsttablemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view first table model",
+        "content_type": 14,
+        "codename": "view_firsttablemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add post model",
+        "content_type": 15,
+        "codename": "add_postmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change post model",
+        "content_type": 15,
+        "codename": "change_postmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete post model",
+        "content_type": 15,
+        "codename": "delete_postmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view post model",
+        "content_type": 15,
+        "codename": "view_postmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add user model",
+        "content_type": 16,
+        "codename": "add_usermodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change user model",
+        "content_type": 16,
+        "codename": "change_usermodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete user model",
+        "content_type": 16,
+        "codename": "delete_usermodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view user model",
+        "content_type": 16,
+        "codename": "view_usermodel"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$B895h7Pm7oqIzUaPUSUle9$mAek482NonOd3tq7gTardDsdRoJQaUjxqMpu6D6Y5Cg=",
+        "last_login": "2023-05-19T12:10:08.689Z",
+        "is_superuser": true,
+        "username": "shahabaz",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-19T12:09:57.195Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "TableCreation",
+        "model": "phishingmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "datatype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "defaultvalue"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "ondelete"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "relationshiptype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "tablename"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "MainApp",
+        "model": "tablefield"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "TableCreation",
+        "model": "firsttablemodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "TableCreation",
+        "model": "postmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "TableCreation",
+        "model": "usermodel"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r3bvqyh38s3ndechl0nk537z074jntfg",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEgj4JL934DmRkGqRqalHZl_HfbpAvd3nPOfYsE61LT2nlOYxYXocXpd0OgJ7cd5Ae0-yRpass8otwVedAub1Pm1_Vw_w4q9LrVxcUARnlFdkBrMLrsDOeBvdLgwZEpEHMg3jykcA66lGLJMYKPnqP4fAHoVjiA:1pzyvw:roZEzo8MEDGLcsQSudt1mc73sPXLAT7RAD6RsCGNQg0",
+        "expire_date": "2023-06-02T12:10:08.692Z"
+    }
+},
+{
+    "model": "MainApp.tablename",
+    "pk": 1,
+    "fields": {
+        "table_name": "Category"
+    }
+},
+{
+    "model": "MainApp.tablename",
+    "pk": 2,
+    "fields": {
+        "table_name": "FirstTable"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 1,
+    "fields": {
+        "param": "BooleanField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 2,
+    "fields": {
+        "param": "CharField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 3,
+    "fields": {
+        "param": "DateField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 4,
+    "fields": {
+        "param": "FileField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 5,
+    "fields": {
+        "param": "FloatField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 6,
+    "fields": {
+        "param": "ImageField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 7,
+    "fields": {
+        "param": "IntegerField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 8,
+    "fields": {
+        "param": "SlugField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 9,
+    "fields": {
+        "param": "SmallIntegerField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 10,
+    "fields": {
+        "param": "TextField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 11,
+    "fields": {
+        "param": "TimeField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 12,
+    "fields": {
+        "param": "URLField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 13,
+    "fields": {
+        "param": "UUIDField"
+    }
+},
+{
+    "model": "MainApp.datatype",
+    "pk": 14,
+    "fields": {
+        "param": "DateTimeField"
+    }
+},
+{
+    "model": "MainApp.defaultvalue",
+    "pk": 1,
+    "fields": {
+        "param": "Null"
+    }
+},
+{
+    "model": "MainApp.defaultvalue",
+    "pk": 2,
+    "fields": {
+        "param": "False"
+    }
+},
+{
+    "model": "MainApp.defaultvalue",
+    "pk": 3,
+    "fields": {
+        "param": "True"
+    }
+},
+{
+    "model": "MainApp.defaultvalue",
+    "pk": 4,
+    "fields": {
+        "param": "DateTime"
+    }
+},
+{
+    "model": "MainApp.defaultvalue",
+    "pk": 5,
+    "fields": {
+        "param": "None"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 1,
+    "fields": {
+        "param": "CASCADE"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 2,
+    "fields": {
+        "param": "SET_NULL"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 3,
+    "fields": {
+        "param": "SET_DEFAULT"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 4,
+    "fields": {
+        "param": "SET"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 5,
+    "fields": {
+        "param": "PROTECT"
+    }
+},
+{
+    "model": "MainApp.ondelete",
+    "pk": 6,
+    "fields": {
+        "param": "DO_NOTHING"
+    }
+},
+{
+    "model": "MainApp.relationshiptype",
+    "pk": 1,
+    "fields": {
+        "param": "ForeignKey"
+    }
+},
+{
+    "model": "MainApp.relationshiptype",
+    "pk": 2,
+    "fields": {
+        "param": "ManyToManyField"
+    }
+},
+{
+    "model": "MainApp.relationshiptype",
+    "pk": 3,
+    "fields": {
+        "param": "OneToOneField"
+    }
+},
+{
+    "model": "MainApp.tablefield",
+    "pk": 1,
+    "fields": {
+        "table": 2,
+        "is_relation": false,
+        "relation_type": null,
+        "related_table_name": null,
+        "field_name": "name",
+        "data_type": 2,
+        "on_delete": null,
+        "default_value": 5,
+        "verbose_name": "Name",
+        "field_length": "200",
+        "nullable": true,
+        "blankable": true
+    }
+},
+{
+    "model": "MainApp.tablefield",
+    "pk": 2,
+    "fields": {
+        "table": 2,
+        "is_relation": false,
+        "relation_type": null,
+        "related_table_name": null,
+        "field_name": "age",
+        "data_type": 7,
+        "on_delete": null,
+        "default_value": 5,
+        "verbose_name": "Age",
+        "field_length": "2",
+        "nullable": true,
+        "blankable": true
+    }
+},
+{
+    "model": "MainApp.tablefield",
+    "pk": 3,
+    "fields": {
+        "table": 1,
+        "is_relation": true,
+        "relation_type": 1,
+        "related_table_name": "FirstTable",
+        "field_name": "project_category",
+        "data_type": null,
+        "on_delete": 1,
+        "default_value": 1,
+        "verbose_name": "Project Name",
+        "field_length": null,
+        "nullable": true,
+        "blankable": true
+    }
+}
+]
